@@ -1,0 +1,21 @@
+<qa:browsers xmlns:qa="urn:config.gridrouter.qatools.ru">
+    <browser name="chrome" defaultVersion="52.0">
+        <version number="52.0">
+            <region name="lnd">
+                <host name="chrome52-host-1.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-2.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-3.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-4.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-5.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-6.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-7.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-8.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-9.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-10.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-11.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-12.lnd" port="4444" count="5"/>
+                <host name="chrome52-host-13.lnd" port="4444" count="5"/>
+            </region>
+        </version>
+    </browser>
+</qa:browsers>

@@ -1,0 +1,1 @@
+docker run -d --net=macvlan17 --ip=192.168.17.142 --name=selenium-router1 -h selenium-router1.lnd -v /home/banuchka/grid-router/:/etc/grid-router/ dockerio.badoo.com/selenium/selenium-router:0.1
