@@ -1,0 +1,7 @@
+[X11_XOrg]
+name=X.Org development (openSUSE_Factory)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/X11:/XOrg/openSUSE_Factory/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/X11:/XOrg/openSUSE_Factory//repodata/repomd.xml.key
+enabled=1

@@ -1,0 +1,7 @@
+[Java_Factory]
+name=Devel project of Java packages for openSUSE:Factory (SLE_12)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/Java:/Factory/SLE_12/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/Java:/Factory/SLE_12//repodata/repomd.xml.key
+enabled=1

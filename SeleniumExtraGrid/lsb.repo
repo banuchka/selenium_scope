@@ -1,0 +1,7 @@
+[home_kukuk_LSB5]
+name=Recompled LSB5 test suite for debugging (SLE_12)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/home:/kukuk:/LSB5/SLE_12/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/home:/kukuk:/LSB5/SLE_12//repodata/repomd.xml.key
+enabled=1

@@ -1,0 +1,35 @@
+{
+  "theConfigMap": {
+    "auto_update_browser_versions": "0",
+    "hub_config_files": [
+      "hub_4444.json"
+    ],
+    "reboot_after_sessions": "1000",
+    "grid_jvm_options": {},
+    "grid_jvm_x_options": "-Xmx512m -XX:-UsePerfData -XX:+UseParallelOldGC",
+    "grid_extras_jvm_options": {},
+    "auto_start_hub": "1",
+    "iedriver": {},
+    "default_role": "hub",
+    "chromedriver": {
+      "bit": "64",
+      "version": "2.22"
+    },
+    "auto_update_drivers": "0",
+    "video_recording_options": {
+      "record_test_videos": "false"
+    },
+    "auto_start_node": "1",
+    "hub_config": {},
+    "geckodriver": {
+      "version": "0.9.0"
+    },
+    "log_maximum_age_ms": 864000000,
+    "webdriver": {
+      "version": "2.53.1"
+    },
+    "node_config_files": [
+      "node_5555.json", "node_5556.json", "node_5557.json", "node_5558.json", "node_5559.json"
+    ]
+  }
+}
