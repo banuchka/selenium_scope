@@ -1,0 +1,4 @@
+#!/bin/bash
+DATE=$(date +"%m-%d-%Y %H:%M:%S")
+echo "Reboot at ${DATE}" >> /tmp/reboot.log
+[ $(pgrep s6-svscan) ] && s6-svscanctl -t /var/run/s6/services

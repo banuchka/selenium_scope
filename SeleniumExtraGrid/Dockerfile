@@ -38,6 +38,9 @@ COPY SeleniumGridExtras/webdriver/ /tmp/webdriver/
 
 COPY scripts/run-selenium-extra.sh /etc/services.d/selenium-extra/run
 COPY scripts/os-prepare.sh /etc/cont-init.d/00-os-prepare.sh
+COPY sudo_seluser /etc/sudoers.d/
+COPY scripts/shutdown /sbin/
+RUN chmod +x /sbin/shutdown
 
 RUN sudo useradd seluser --shell /bin/bash --create-home
 RUN chown seluser -R /opt/selenium
